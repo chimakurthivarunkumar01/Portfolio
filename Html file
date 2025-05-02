@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mark.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Varun kumar</span></h1>
+                <h2>Machine learning Engineer</h2>
+                <h3>Passionate machine learning engineer with a strong background in developing innovative solutions using cutting-edge techniques</h3>
+                <p class="summary"></p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn">Contact Me</a>
+                    <a href="C:\Users\VARUNKUMAR\Desktop\General_CV_Template[1].docx" class="btn secondary" download>Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="C:\Users\VARUNKUMAR\OneDrive\Pictures\Camera imports\Formal photoo.jpg" alt="Your Name">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>With a deep interest in Machine Learning and a strong passion for predictive modeling, neural networks, and data-driven decision-making, I am committed to mastering the core aspects of building intelligent systems. Through continuous learning and hands-on projects, I am developing expertise in algorithm design, model optimization, and large-scale data analysis</p>
+                    <p>Currently exploring advanced ML domains, including deep learning, reinforcement learning, and natural language processing (NLP), with a focus on leveraging AI to solve real-world challenges. I actively stay updated with the latest advancements in AI/ML research and seek opportunities to apply these skills in impactful industry and research projects.</p>
+                    <div class="personal-info">
+                        <div>
+                            <span>Name:</span>
+                            <span>Chimakurthi.varun kumar</span>
+                        </div>
+                        <div>
+                            <span>Email:</span>
+                            <span>chvarun971@gmail.com</span>
+                        </div>
+                        <div>
+                            <span>Education:</span>
+                            <span>B.Tech, Lovely Professional university</span>
+                        </div>
+                        <div>
+                            <span>Location:</span>
+                            <span>Phagwara, India</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                   
+                </div>
+                <div class="cyber-grid">
+                    <div class="cyber-box">
+                      <i class="fas fa-shield-alt"></i>
+                      <h3>FrontEnd Development</h3>
+                      <p>Having a good knowledge in HTML,CSS,JavaScript</p>
+                    </div>
+                    <div class="cyber-box">
+                      <i class="fas fa-terminal"></i>
+                      <h3>Machine Learning</h3>
+                      <p>Supervised learning & deep learning</p>
+                    </div>
+                    <div class="cyber-box">
+                      <i class="fas fa-code"></i>
+                      <h3>Programming</h3>
+                      <p>Java, Python, Algorithms</p>
+                    </div>
+                    
+                  
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Technologies Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Skills & <span>Technologies</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <!-- Add more languages -->
+                        <div class="skill-item">  
+                            <div class="skill-info">  
+                                <span>Java</span>  
+                                <span>80%</span> <!-- Adjust the percentage as needed -->  
+                            </div>  
+                            <div class="skill-bar">  
+                                <div class="skill-level" style="width: 75%;"></div> <!-- Adjust the width according to the percentage -->  
+                            </div>  
+                        </div>  
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-items">
+                        
+                        <!-- Add more frameworks -->
+                        <div class="skill-item">  
+                            <div class="skill-info">  
+                                <span>HTML</span>  
+                                <span>80%</span> <!-- Adjust the percentage as needed -->  
+                            </div>  
+                            <div class="skill-bar">  
+                                <div class="skill-level" style="width: 75%;"></div> <!-- Adjust the width according to the percentage -->  
+                            </div>  
+                        </div>
+                        <div class="skill-item">  
+                            <div class="skill-info">  
+                                <span>CSS</span>  
+                                <span>80%</span> <!-- Adjust the percentage as needed -->  
+                            </div>  
+                            <div class="skill-bar">  
+                                <div class="skill-level" style="width: 75%;"></div> <!-- Adjust the width according to the percentage -->  
+                            </div>  
+                        </div>
+                        <div class="skill-item">  
+                            <div class="skill-info">  
+                                <span>Numpy</span>  
+                                <span>80%</span> <!-- Adjust the percentage as needed -->  
+                            </div>  
+                            <div class="skill-bar">  
+                                <div class="skill-level" style="width: 75%;"></div> <!-- Adjust the width according to the percentage -->  
+                            </div>  
+                        </div> 
+                        <div class="skill-item">  
+                            <div class="skill-info">  
+                                <span>Pandas</span>  
+                                <span>80%</span> <!-- Adjust the percentage as needed -->  
+                            </div>  
+                            <div class="skill-bar">  
+                                <div class="skill-level" style="width: 75%;"></div> <!-- Adjust the width according to the percentage -->  
+                            </div>  
+                        </div>
+                        <div class="skill-item">  
+                            <div class="skill-info">  
+                                <span>Scikit-learn</span>  
+                                <span>80%</span> <!-- Adjust the percentage as needed -->  
+                            </div>  
+                            <div class="skill-bar">  
+                                <div class="skill-level" style="width: 75%;"></div> <!-- Adjust the width according to the percentage -->  
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Git</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <!-- Add more tools -->
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>VsCode</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://www.muvi.com/wp-content/uploads/2021/08/Online-Food-Delivery-App-with-Recommendation-Engine.jpg" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Food recommendation System</h3>
+                        <p>Developed a food recommendation system that utilizes clustering algorithms to suggest recipes based on user preferences and nutritional data. The application enhances meal planning by providing personalized recipe recommendations.</p>
+
+                        <p><ul>Key Features:
+                           <li>Clustering of recipes based on calorie levels and ingredients</li>
+                           <li>Personalized recipe suggestions</li>
+                           <li>Data visualization for recipe distribution</li>
+                           <li>User-friendly interface for easy navigation</li>
+                              </p></ul>
+
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Numpy</span>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="project-links">
+                            
+                            <a href="#"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://cdn.prod.website-files.com/670cbf146221ee06c3cdd761/67120d05aeb7b880cef08357_movie%20recommendation%20system.webp" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Movie recommendation System</h3>
+                        <p>Created an intelligent movie recommendation system that analyzes content-based features to suggest highly similar films. The system automates personalized recommendations by processing textual metadata, reducing manual search effort for users.</p>
+                        <p><ul>Key Features:
+                            <li>Content-based similarity scoring using TF-IDF vectorization</li>
+                            <li>Fuzzy matching for title input tolerance</li>
+                            <li>Cosine similarity-based ranking</li>
+                            <li>Automated recommendation generation</li>
+                               </p></ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Sklearn</span>
+                        </div>
+                        <div class="project-links">
+                           
+                            <a href="https://github.com/chimakurthivarunkumar01/movie-recommendation-system/blob/main/code%20of%20movie%20recommendation%20system"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHp3TYZFkcEdeSSJYb6WqpbpMaUOj7fzca1w&s" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Transfer Learning with T5 and BERT for Question Answering</h3>
+                        <p>This project explores the application of transfer learning using BERT and T5 for question answering and document retrieval tasks, leveraging state-of-the-art transformer-based architectures.</p>
+                        <p><ul>Key Features:
+                            <li>Transfer learning with pre-trained language models</li>
+                            <li>Text-to-text framework</li>
+                            <li>Contextual representation and span extraction (BERT)</li>
+                            <li>Hybrid models for end-to-end QA</li>
+                            <li>Data augmentation with generative models</li>
+                               </p></ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Numpy</span>
+                            <span>Tensorflow</span>
+                        </div>
+                        <div class="project-links">
+                            
+                            <a href="#"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Add more project cards -->
+            </div>
+        </div>
+    </section>
+    <section id="education" class="section education">
+        <div class="container">
+            <h2 class="section-title">My <span>Education</span></h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-info">
+                        <h3>Lovely Professional University</h3>
+                        <p>Bachelor of Technology - Computer Science and Engineering</p>
+                        <span class="date">2022 - 2026 | CGPA: 6.5</span>
+                    </div>
+                </div>
+                
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-info">
+                        <h3>Sri Chaitanya Junior college</h3>
+                        <p>Intermediate (MPC)</p>
+                        <span class="date">2020 - 2022 | Percentage: 9.14%</span>
+                    </div>
+                </div>
+                
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-info">
+                        <h3>Universal High School</h3>
+                        <p>Matriculation</p>
+                        <span class="date">2019 - 2020 | CGPA: 8.9</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & <span>Courses</span></h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-logo">
+                        <img src="https://cdn.prod.website-files.com/65b77b4c4401f4eb13b755ec/65b77b4c4401f4eb13b7675d_ChatGPT_Prompt_Mastery.jpeg" alt="Coursera">
+                    </div>
+                    <div class="certification-info">
+                        <h3>Prompt Engineering for chatGpt</h3>
+                        <p>Coursera</p>
+                        <span class="date">February 2024</span>
+                        <a href="file:///C:/Users/VARUNKUMAR/OneDrive/Documents/mooc%20certificates/prompt%20engineering%20for%20chatgpt.pdf" class="credential-link">Show Credential</a>
+                    </div>
+                </div>
+                
+                <div class="certification-card">
+                    <div class="certification-logo">
+                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231205165904/web-development-image.webp" alt="Udemy">
+                    </div>
+                    <div class="certification-info">
+                        <h3>Introduction to Web Development</h3>
+                        <p>Coursera</p>
+                        <span class="date">May 2024</span>
+                        <a href="file:///C:/Users/VARUNKUMAR/OneDrive/Documents/mooc%20certificates/introduction%20to%20web%20development.pdf" class="credential-link">Show Credential</a>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-logo">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASsAAACoCAMAAACPKThEAAACIlBMVEX/tgb///8AAAD///3/tQj8yV33eVT9///+twT/twP///v6yl2S3+3//f+op6j3zmX60Xn2e1L6uxlrkZpnk5qe4+9+goaS4OqU3e7W2dZGNg8AAAWh4O9bXlr8uhF2ZjyFhYU8Pz71flz3uy0VAAAwLyidoJxHKgBaWlrHsmr51nejhCUKAAD8yGGwsLBsmp6IdEoYAADi5OPggGbqsyu4jT10eG9USicwLCuLi4QpFwA5HAC0iSv/0W6RkZHAwb9ucXA8LhtPLigAAA96pa6Luca9cFn/tyZuWxeRg1JKSkhgTgsAICYgAAD+dlcxFQ3Y18XVqT8uAABhY2lAREokEADeqSzdoTVMNRv6wEQwIhI4IA1wVCtlSip3XR/pskSLbylkSQ+abRh3Xw6gey6GYilJWFtZeXYpQD85MQDhxHilk2E6LQwWGCJwm5Sl5+bkvTlWQhOez+FCIgAmNES/lydGPgVuThw0MR56bVD91IbMtICfgE4rIwCPdSV3bz2skksqIBdDPCxcUSHQrl+bi2JfWkQxJi7535FKTkLuwSi9oUNlWjtERTmGeljYwomBRjjFfGeZZ1oUMzXUzIO5r4HtiG5LNztaMB0pLBk5GB1YIRe8fXCnfmpSMSvSgVsMGAK1XUE8BQDUkoIsVF51Ukbdi2eNUD6qUz58XF1yQDCytqTugW63bGFbTFdfKSVsKBDOk3OLZzevi1+6gStfORdvHJYsAAAgAElEQVR4nO2djUMTV7bAZyYjmSQGkrF+hMgYMiF8BYphIhQCgWpNpUU6WkLCV8CG7i7St1CXpVr0AXW7Lbhbcd+jbnXbVV/Le1rrW179/945987ki4CAbWGspzVMJpNJ7i/nnns+7txhBIFhGJ55KVsQRPWS1Uv5OUTY7S9gFIH+Jxga1i/35fndYPV89pGn31f70uSJoX9s+iPw+ICPAgrdiRv8c7RNoHgEIc0KT2js0Yl8fYoIWRFuWiOfy02Bd8PJ0qcRJIGxWIxuRzQlgoZJoowiSiC6TjwHKwJeJKoKv4IUhRMLxoaFPzYqkygnwyPDo6OjwyPhpCwKWofcccvIe4W+CyJPsYsXRt+rTcB5Bekn/Pa/qEB7BIsgyrHat3rixxoazjQ0HGtqGU2pOq4dnxhFHuuJCbzEQA+Uh9//zW9/V6uA1v6U3/+XFPKby5MjPRNnxh2OkpKSNofDMX5xomdYlaP8cygWYaVMfBAWBcrqzX/7/dFTb785aVRUPCPhrx+62lR9pa0OZB8RW5ujevDcCPQYNMk7M/Ck58XmPxiWLai7wOqVg/sPf/jbNxMGHQuBlSQpI71nHHV1GVRIq+TKxaujkxI1NmDVdnR2KVzeNZWghk9+8wCwOvrh27XiT92KX0igfyhTTeM1JTYAlGYFGzZbyfjQVRW7IbOz0RB+h8Soi21RUXUtml4dPnrgj4pgTM0SxFjl4HiJzWbbly3kWUnNv18iDRV21DieEdVOK9t+TbQwgoXRWO3/8A/Tz+GJ7KLw4uRbn4y3gSbZbFm8yBY8dxybSIrSDr0sXhBrm8vKyv4oE9TA6iiwOnL0N9dwhP2pW/JzC/SuxeH4eEkd6lEOLIrKVjc+NDMp7jCKA9f22kcNs5dLsc/xaVYHX3lPNiArhpFCvdUl++p0NrasPkie28aPp+Sdeg2SONJ0xfHxJYVEmrQP7j9y+JVR47HCuEN52lBjyxr+cgVY1VysTIoZWAXcrQ138cjKUVd9SderA0eR1cFXR2U9WjeOCIyY6hkvsW1AisAquXJjTN4hK0EciTvaqi/JFmBF9Wr//iP7gRVvNFiCKCxOzbZtzspWUt0Ty3rPNlk1AatWhTxBVkcAliFZgT2Zvjqe7y2s74VXQxJ2ovVCz0KyCOsaTnJh4jVg9XGrQpx/zV7prAwmkjz87zV1+zZjBVJzZkaWwD8inruFCN0Q0pJO4eE+egjulggr0CuScaB+O8B69S0DshKUyosluYa9gJLZqlvBx5LE9SLpks7fSDkiyqQPDiTIs0RarwzJKtlbne0nkMjGRh2ILFbjEyPhHUlt6EaTo6S6ZY48m2s6YGRWanfaXAEjYGWjrHJV7UpT2YlNpGPjlzxVwOrjee1Z+YGjhw1rr/jpifG6NCtUrBJbWjKsHFMRdodSXAqsKsimiT0ErDI+g8FEUCdqdFb76tpqahxXHFeuXHE4HDU1NWndstV8Us+azYVQ2FHydmU2TVYTsqqugHeDsIcMPQ5Od2aQtM1OTJR2Nk3EOz9amOicWGuz6Xk/B7DavphNGVYmFGR1BDvhK8ZkNTGesezXZ8/86dOmi7N/+nTh4pnZ6yU5rOzPhpPPCh8Iq+ZcVkcOACvDwZLU3jQrNFEljj8dq6lzNDTVtLXV2falWZVGsLUb8dhACB//Olb7Cavdbvn2RUq2VOtI0GyV1Jw5VrOvDVjRNMM+OiKOX3WZCrEyU9mEVkav8LnO6pW3ZOLt7ygtvWsCvmhblhOaZuXIZtVWPb9BD9wMFJV1rMC0Hz2gsdrt1m9HeF4ebnBkWNk2YHXm5PmqqioXy3qqquhGu77h1zc2Y1WhszpwFFgdSevVbrd/eyJNt4zrJhzzL5k+mOVejQ/URyKuDrDvzcV0g+2qd8EGeF1V7bhRv6F+5bJ6xcisMCCsybCylaxnZWv7mEO9aUdW2gbbRTaQFXqpnvoNjXxBVhjjPE9Be3dEEFNXx+u06A9Yta1jheWJky4rkCnOZWVlPYQVqNSzWVHR+uBBnZWBbDvmSaTJ31101GlBTUavHBm1qrk4HyCI/Pl65UnrVfGGVn5DVrvd+G0KSaJEQy3jJWlWul450taqZLylfd5fX19fhX2wnW6wXe3FsIGsPLCnq/7XwYqRhwcdJVqwXIDVlWMdpnp/R7PfH7SzEb8n0O4Psmy93/NBe3vQjHs42LOhm7UpK4MBA5uRnBrELleXw8qm98CGP9vBMLvKtea6yk00jIY9JqvVamKDFZpTujVW4Itq9mq3m75d4QVJEtXKhnHMXu3L9xnq6mrOLATzWJn1DW0PsDJt7JWu868gHjz8qiH9dpz6IYhq69B4TV6Mgzm/tivHuCBrtlpZV3OknkjxB/AQgSft6T3NmJbZOqv9GVa73fZtCW/heUkAWFPxjx2IB1nZSB+s21fiqG7qAkuEkWCw3UOknUh5FWz52z2HDh2CPSRfo7EymfICx0KsDhqSFRWeEZVU97HqKyVtn525fKXG0dD0mePKleoG7jVs+XqF8eSms7LgaKyKCdLgZqx4Y06xha/NR9U3jw81HLv8+ULDsYaFisvHLn/KnbebrOvTCybN96TmHPN5OdgIK+41v99fHmFNG46DxpyOzNNLAaTFpYkbDWc+/8tf/9rwaUVDw2UuSMa5HFZACJ4Gy9rN+tBH0Oi2yoxPgyBg5azsiYipACtNr4zJisxDxsreZOlFh+PM5c9qas5AH/yCsxKXIFfsZnOk69zrPfOetEsFndQcLEapR2pVHzSDBGE86MjVK5NJHwcNzAqFspprI/4V2CtoIGe1Wwvk987fv9XY2Lh80xfBygy16uYI9xsQHDPNzUFgN4+mKsOqOZcV5hkMykors6Ne1eA4SHLIJf/BgRLlmyrW3H5p+fuioiJv463jEXOG1d9+D/I2EAJWoG6cH/yKrogpmxXLvgCsGNoN5eu/+9MXX/z10/8Y/+Jy0xdf/Cdnt5vz0qFWe6S70Xu2CGVltSrNio384ejh/UeRlR30ysR2VKAETWxhVgeQFfFFDRbloAjgNkx/VFbV1fXu+59/+vn7XV1dP/zwbj2b1wWtrOfmisbKu3xHK7BSVvuPfPi2S2NlwlHBSnqwzirbZyCs9GsMLNR5Nw40gRfEpRN5PS5SnG+rzPYvl71nKSvnys0OXa1YF2VF9QogWfNZ5dYmslhpU5UMwwrzWOJ0Q3lEk3r6p8MTzC9J2LuXvVSripzeW3/uolLeVf4usvobbnCElUl34AuxOkhyyAxRJnRJRckwrOhEqQvxig5Nyk6cwD/lXf51FdQ/IysnsipauXU+qEvkb0cPYx+ETdQr6yas9tN4kF7ayWCMpVxQJIuBWAlCYq4rj8uJdYV5M9ux6vU6nUXw/9mV28UmPRsT0fsg8Rl0ryzNqiKH1ZHDNMahrKTJ4W5VFAxybS+5KkIIN1V4PHQekCZdZfmwTGykp9HrRGvl9J7+OxkmzZhqJ6yOaj4D6JMLExAR+7NYSZIgKcPN/apkJFZMdPpYeX2xLhDN1ddXdeSX/Uwme9VDgAXy/fLxepM1PQz87ejBo7rPAEi5Dk+HpxnHyUKsaOxM1Tk281VFv8oYiRV4onNd4Khni2e9uQIWXU9Of9fYePrxV8WY19JZvX3q1KlXP9BYsewHmt++MSsLuWpYSs7cufuPFtUwSQdEZREv9FdUNFdkSXlzc8c6VOA2eHw9X3/dDUpjIqyICQ+Wl7/7bnkVEDKVo+jxYAFW2jiIM5cFKTFz6ZtvbvUkDcOKJBqk2Jk8vbLTBNR6Cbqq/C67XhGknqcGEt4WdLmCLg6d9xOFWOE8ZI2VICpjT5a99+70qIYprBJfUJw8s/BOjrg6/JlOlpsjPhRhs2fzmWiRAo7RkzhcxOVylaVZNeey2k9YCeLk8JNGb9HKA2BlEJeBwThDEN+7WvH3f/oCgQDHcf/853zv/HzzB+czqHI061Du9FHdlzKTmXy42cXNz89XuAqyAgeLxINScgq0yum893BANQ4qdJ8lZe4vqBRWu9msdcUTxWndMWv5dppu95Sf9xzSPQvPIVKgz4VpD24U4+w/fAT1ahFHwNuIytl4a0Cly78YoRtiTAbx4MKjRxjg1EdIpSYSKcuKB12c7tTrG+eb0xsFSjjUihVkBf9BH5QSw3eI9wFBeIuBWGGsL0ixmdHRT1oWSktL46ULAYxzstyrTDWw3ExtVzC9ZyNWBWMcsFfIKjE5+uQbr7fobJHz3v0WVVukZbc5PFu062kEWZbV+GcOh+OK47OrhFPGfgMrat3TrOge2AqS7FQer01ZHX71k+uf3P4OSYF8f/eqaqwFGwQIzSwCsMK1LGxXrkZMGa+cdUWKy10uM2t3RSLNsGE2B9Mbrkh5JBJcxwptvLVAjENZfToIHRAzFhBXNv5j3jis9Gu1eEZSOz+urq7+uPrj+UhW1c/MVZWVlTV7wCkv76rq4iJmc1cVJiJwnkxFV1kXt27+Va5epes41Gf4/b/NP2l0OkkWrKjoXmuvcVhRIaxiT0t/N/HPv4ATnh0K2jl0Sv1+1krmX3nqWVMX7iHz+jB5insKTunOucYko1ev9HzjLaKsnM6VB8ZjRXDJyuT1TmverBc7lgpxXh+wMpk0Vjidj7CClzZjFXfUrWf1tZ6JBmKND3sMyAofLUKy05pXmLeT0iiwMoFeEVYs0SvKit2YlZnoVdt6Vq+vnKV6hRWhbwfIchm73P5tCa8ZLqXTmlMXNAErTHh62llrRT1Ee2Qesgs3kJUftjrqC14qQFh99MX4f6brOGR9BsLKC46VFzuitxFinOdZZWs3BGc18JRVTsPhSRWmDsCSWzvKKyrKcZ5CR3N5eQXadk95RXMzJh0KTBHBwbGY+/vf59/NGwcPvL5SdNbbeA+HQu+9+z3G0yuerjlXgBVWGzBYRk8AYhf4ayZxMm6a7HYaBRZiBXrVZQ++82fWmjVX7fBBwmrl5rl7wOrsyl0j6ZVF0C5XZniLtI4VdEKaSDBpkQsCA40xYbmGTM7SyjbmLNFYmdjiz02md5rxSLNJmyeDrBq93692zp/GEOebW0ZihYad11ws1KsCxkfbpVdJUa+0RIyGME8yrLqs1neaWZp+AFZosFCvGm+2Xmx5TPrgOSP1QZ4hMzfJugCSmMzXq/VWKL92v5HAeYp9CwsflbO0k7affPu/3gCT9errD75tVdUeYOV0eh8YyWfQK8CCJCux6blOVz6pQ+czUoaTr1xVVejKg1Slt8oyOzTBKkXx/K3Vb79krbSHulz+t//rw4OvfvntJVWM9dA++K2R+iBZicLCiMr0ey2+3vkKjiuLZGuO3X3glCavnjp14H2wVa6tiB31aqDRe/dLatuJFTMfOvnhqXlAJcRaTmMf/OahgXLIDFksTlRSlV314EhZsY5cVd6eGdfsJ984ePQgCI73B994/1nXDGb1Qbb+3PLKrR/04BI7otn/hwNXl2RJY1W08mBANUZCBkWw8NKiOloWSfugJtblmY+wmjeOrI5QgVHsjfMsG/RvRYL4/o6er1sidu3EZjIodLx9IyFKDGF11ov5KxyKd5vC1gRYyUsBP9gUq8vvKetohx5osrqaPdQbgD4IBvnIfkrrMOpV0LMFIWUgu72+OL8cFHTfSEi6Xjkb7xqJFS/ItcchKra3N597uHrr1s07vR0uGOw6OmhZxux+4+gRXbAP5i/JsD2xs4eGMqy8jbdaVIOAQhHVSxGzNdjVs7r8PURpK42nn3TXW1l7s59OMz556o2MHDgPrILrhfSxLRqxeAI8Kr0P9rQYZRzEr5nsfmRlI9zqd3RyldPrbVw+dx6Clwqa8uvoejctvy332FlX+TrpeOZl4hQUyqOpBIy8lJVz5YFxWDG8fO2E1Rr56lZjkZ5TOnvW+819D2uNNFPrnuGgTWo3r5MNFlFZzwqc/kc4/4rXWGF90CiseF7tD5rsFasrXqcOy+k8610+V8+yZfW0SJpVZ8awuQCrZy8/wKYL+v5rMqOxAnv10Dh6xYsjZSaz58lKUUYQmvdxNzjoHJt9dSCO+FhdthcIAQtGhPmoaDBZDkGNkPGvDOO3C7xSGbG6jmsTQbNk5XY7y2KOKpsVepOFw+Uts2KLyXQGKe1fGacPCupVq8l/v3EdK+/jd+0sJkHZHFYExLZZkRNQVNbmsIiRQlL3GQyhV2TmlRQ+wbInVtPGSjdZRc7l7vLy5uauLj9NwrB22uKcNa/smmQ/1zYxZ4OUTTQ3SN8Lnuh8rUyiqlhvxr/a86xofl2sha5WdTqf1VlwHM61k8nb5/3PttpbE/D4/fFaWZCENCvnvduGYWURr73GsgvLeayKvPf++7vWetJ5goHXNhMIZwrvb9cm07yGE2zokWU9b6kyL+EcbSFJWa086DeC305+TmBlKsRq9eGD+8DKCoNh71zt9mWu4fjDVU3+56tScoqwmpRFcqMcxsJo9ur0Q0OwwlQ7L9aCXpU9zjftKw8fPuj21Nc/evTo81o5f13RAmuN5om8VHqz0YsRk9f74OvKpEyXIxV47V48kqCxugf+1W5j2KJYBLTtr938Po9V453VZV9ZWfnA6HvhRYlMKk0v7KtvFFj1VxNJVlsfrjiR1dmzjU+mklHMJmJGI31TJynWSvMMOAdytylsRXjiEwZN/nONZ4uc6W7oBIfh3PLjH6zWjtmEjNfLCJuiyVskmRcA1eqKk1410PiwMslHNUg8rdnCPyk2QG17T79RahOCoLxVbw7Ok++twTrr9C73rIK5slqbp0V6FEMuCdGm1Gx+SosgqpceanGA87uHU6q2GHDmuk5J4qVJzWf4R68BxkEiAoTOn5vY4juaM0rCG+93t28/uNVstb7Tokikg+CC0Jme8gzFktVLN1fwqh2v09t4u6JaXS+xWGyp5x5hddcw+XaMnQdcZvMPN1c08w6O1eM7t/91tztitX4eEi10giKj3StyY8XSVymHDnhp9Xt9XD19f+DSxEBrARnoOY2/DeaQDdIHQeTaLjvrqrhJNMt77/HjJ/dvLi+f87PmSGXSss1FcgRJXKoE7vTaOdSbbxo3EvLjYOxsHFYWpdLPWoPNTzAr2vi/ra+vLj+4dbzdZAr2LsnbuAqSHCktqt2rFJVTU9P8QDNLzsKAexNYWQxy7RJjkdQ/+k3WoOfczceN3333r38tr95ZcFnB4Kdkceus6IGyen9Vv27O6Uz/LSz4Ks5nME7dmeej0y2PrKw1cuLLr24/fHinp6rYbGVdC4Bqy6yIz8TDCFh5U09FZ4BsJE5MWButRi+qLR12nDrkqi+uj+CaHqZ6X0oGP3sbrMAXkNUe2gHToRJOSsvVpRy98tL5V0a53pkBx8cixUY6/UGrlpIDFSv747Sse+dbOQnRK3H60ioJbDYXZ/YTzF9J62/tsUeF3ktYnh5tOfHonWAw+M47/o9Kr01KeiSztbPg9YBq6cLd09uU5bvdqmGuo9dFlCdrRysrW1snRt+bniRXQ273DO9NlJZWblueKkbRKk1QLURRVsChVsCk76RXQBio7EjwFljGokXXZqV3cMGnuHrJtoBZ4N3pKYKCRci6f47m7Ot3jabRs7aBq+AZxl7pwq9r2zaakBP75JxFj330BU21D8tOTOxh2chHzmohJlC2zSoTEm6f1V4jlr4BF5PdgoxoncfC6Jc+8tpSJlvoi7oiZp1oU1bM3mZF0nD0WwkFWp9uRy5Ey/aSS1s7eK/HyjwWBIi/RL+nJW/Z2EKsyKZA7wS3tU95IVjh/Nl0H4RtS34fFPTbvWVe4DVO5OhnnD7rLM+WQkftJSPPW2Cgs+B9wnkmR1ME/UnuuIQ7LRLW8uiun1cXBEYS5ejP+AHbE5zBLkVlRY5GRVFg0ktdC2mjm8sKyzHKpKLIkn5MoXOm5VkshZzt9bfCVGZmxvbMfXOgK0l9M1Ol8dLRkbAs8ZnvKzBRLNbksALbFg1NtQR6Sy/IghCVC+Yus26RDV7/5qmVjVnRgFTluM7ETtr1cwjqVYjTZAhvcU3XRbAwQjQ82BPTylKgfPRipmiKHjomi31rrWEsvvD4HknQnQ4G9ljgFxClaGwkPoLKKkj0JDy5HIpuM9qJBW0YtmDpC82BgBlqqtAQeAeA1d6xWYRV01xq0Ofmnsaw7YIowreWlDjHJQWkgETI1xeEZMAdGKlNzfSJi2McFwK2AEXCI2i8SDSJhJHAKsxxazIeINKbXBKy+Jog4brnuquFcRCuDEZOw5OfBV/Ac8R8e0ivNFbDi6Ks9nJcSpRkNXUtpcpMdG6e4/4vpEgxNZUKqYtozy0SNH/QBq2IRtUbHNcQiinhUCyW+lHuC4UUUZyGR0mSJ8OpVFjpa+C4G6E+BXeKUXhcFPtCYWV6ZFISY6GRUF+ULm0fjYVSI6FYVBLg5YSaGsHaIR9V4ZDrvr2nV8PwU4sp7mTlojxD+tiwnAxwuOZOLPqU7BjBLB90Co6bDyWgLYsznBt2p5I+riHOPU0OcZwqyZdAFXk51YLvUMfIEUN1sDMmJXq4QEwe43oB4JIcOg6v+FIiueKuD59w/dOiCKragB96AVQxDD8d1xnYg3qFVWA14O5OymNP16DxXEgZCri5zji0b2htrRN24MgnJZ4CgIFULCpemMeXw8njHOjfTAJY9QnyhJtLRmuhkfGhp5O1/UAgPrYvzgX6mEQ/1xuT1zjkt7QECGfjSJewujQ4eyzAtSriCLza38+5j8dEFU8Sh+d7UK/ASkCz3UlJsalzDZx7Rk5iYxKyJNuuhy6DNRcZdMNiT7G5A6BD0O65hKgeD3CDS7EsVkCFm1NkWYzCidcScgJZCYkWYCXCe/rnVFDCzvF94zhCYLQUTdSFLnaC2gErbkhV4XOnQQO5weTkLKjWXrkXDM+n+yDpX72KHIavCjSeQhuh4WCzyQ48BCw3w4tyeAa6iU/BDhOSLJO+gA+GTxn7IK9MQB+E08TJDYkZYtslYOXrk9KsUrIEA8R8PB4PuON4k2dBGeHIR04jq5SIjyGl0s2FBOIz7BVWuCQYYRXlGbBX3JSsdrt9a2BThigrMmz34g5kRZJ2krwEmhPGJv0oWMBetYCfFUVWVK/CeBqyJBQdBxOdwEpIDGisQqDAnNtN+CMrCaHHR5o4jVUUv0coMeAOqJLUF9g7rCyZPiirYHfC2LNmE/BzPpXlUjQo4jB8c/k6mCQMNvgodK0odriwhD+/zMAQoLNakgEIp6qcuyeJ4z9lJcnYp8S6Ho1VmHT2zuolnO0B3pek+NyddQn4GFVjdQ1ZTYFeiWJoL+kVjm3whQZVdaQXAWFr5vaNEFZTYFDUxCB4DnVrRPXAa0i2joRCaz4c2eDnb1qKoV4lBIYox9wa9CRVAX0cCqnTsjTNuQdCxKBPXYcHnRUvDnKBtWQyCYeA/xYD3bmudp7k+tDRTUlEr+QUvjd0m9tLtp30Qbfut/P8NA7mxF7Bd4b9Knr1Ae4k6YOMEOaobRkRwbydhJYnj7t7ZXDTp8lJ5lE7wgFyUJ8U6yXeR5g76caXwK5prNQW+oFJvKRTfqqdsy+asVdSklrJ+T3EymKRhB/Jt+odDCUBh5zycd2z8cDTKJ8ElSI+Edf9f3HfTBTjl74hABGIY+gopwLI6r6vVQYrhu/zrc0iIlmFDskdj0EnHMDxEw/0zc5yx5NROFcYPXJ1EHwqXzyGBlBELEOzgUAfalRYFC/AIyOix9Y6NxRolfdKWgv6IC8rMTUGgzxPAjFRiSVkWUHXE6tdEKoo+KIsk7tXMbhPkaM4zolKnxKNyvhGDHXgMDGawHhaIgdBsCPB36hFWIQDRTgO362I5HYyspLEOppAYh45FoNXF0XYLcMvAts4joixPlmEt0l7hRUViF5IRjQr322hQS2NnS2CVqxi6D23tMgXs/C8/iSrXkOTrby2cAhJ2JG3W8iZ6PE0BcvT9+ohYFbyh34oFsl2hcizJbc2ka6/0Ke04UL2kdrxmQO1HEL6EF7PU6z7mGwp8MLP1sTnlZzmpbVHeyVf9MQKUSXyJJ1eyXonPSSr3KXnDnPVJ/2x6XPz6a+UVfb5tYhe4dIT0rv9ffayaHr0q2SVbuyzeoegly8ool8PKzRIZAKIwOizMjKs0lAYYvsxKai/KJChDtOh5AoJclWJNkq+sIZIH/UIsagyKWdb3dxSD7XVkqTV4C1CNJGI8rk3oHrBWVmkWJ8aI4z6BgbGokKmiEO9Ja3OQEsUsZELUVz4Fv4XY+Rw6mDpWC17vs68c4HwZhFiaa5WhCZCUDgUFWhJlU6D0OeEoLpgR4vOcNyP4HrLimTBvNgQmZLL6O6B5t8a7kayWxOcee3D8FrWWMmayyRJ2sJ+eLUkvWwLS2MXuG4IDN+L9ygMQ1hZSK3GQipgtAQmbXk+hMHEIokhDpcMS0L7qF4JJHATZUw/Mxi4icSciaIEMZysqouirZfrnRSpXkXhONAlUZbwSCyRycaZwb49kQR5huv8K0kb0z4oScmx0ZnQ0tiYIgiJ0PDMTCopCvKPYxeSIzPJ8NhYTFnjTvqOjSnI6vrYzEhSZGJjY2oIjkwkU6PDqii8kIolWWIBbhjTozJD+6DY14OpnAWuV5GUQZLWaVExGbVwg3OrmHzpo6niPmC14CMZY76P427gkYOYnfKpL2YvlLCKGk5c4vpjpOYwJCutJ7mm2U7OPaDIwwAiNEY2MXXl68HUV0hZ87l9a2NRLF91Ylk7JfWRclgAEB7rxNTWC8gKLDfyuL5vluQ1Catpzh23ycBhQOnr5gKqKDdhvn4IdqsK5o3Doq3f3Zsk9qrfloC3DsLh7ngS09Kzk9d9XOmeSaX/VEI9I2XAzXVO9Lu5NZmySnHciCgkCSuscvHiHOzBskUIzBZhlQBWiiRQ2x7CxxjmlGWSJI71cwMJ/gXzsaiHrkNVTL0AAAIdSURBVGpJeXdvgtirBLCaFSXCaprjShd5GVlNDmLRRhLTrGIaKzGcYYWFmugLycpCrtbCqQah0NwAoiDNhod4cvE60Ssf50vyMmBKoV5NiwKWdcKi0sIdVykrUZymrNzDMilqSckXkRXJsycGoNliNLGGs0AIq2Q3x30yEtcN+uDSNaxqYZ2wDxzXNXTx5Uo398kF4jNEsdAzhPYKWGEfFAkrw6z1uGWh82PAJPFY3Iwn8AEMEE5vmfe5+xUxOUD6p2+J1OrD4GkO4h+sy3C+WB+JcUjHVbFsGyUzt5K9XMsLyMoiSD9ONV2IQlCoTA3NxPqGhi6ITLRvbGyk2sd1KpIUuxAfiI+Bcymmhob6GIn84QUlFe+ZUZShoZQo9M0Mjcixp3AaMQwvCtHhobGoUe6bt3Wx4JQPGqPw0WgU/4HbLiuJhC3FuWeikiBFZdhHZ+PJGF5jrQqcMhrPkPBHkvFN8A9ejMK5BHLGF44Vo10uIGgz2/FBkELdM2OD4FaG0+WtdIULc6KYpSG1M4HR6zuCNrGZ0S7UeAELD0DCwgu0YpMpsODIiJKStXqi3nQLSWFZyKwaRq8RSkAXT0FKioJ2bSD/4rHSL9jRNqkIghIeGVy70BfNXP1M/1iy3pVeH0TQyqaMfr/5F81j30RQkSRxUTbg5aO/uFCbkzFQL+UZklWS+FUUs3YuOaPYS1abyktWW5eXrF7KS2H+H8O4e4FGU/KNAAAAAElFTkSuQmCC" alt="Udemy">
+                    </div>
+                    <div class="certification-info">
+                        <h3>Data structures and algorithms</h3>
+                        <h6>Self paced</h6>
+                        <p>Cipher Schools</p>
+                        <span class="date">March 2024</span>
+                        <a href="#" class="file:///C:/Users/VARUNKUMAR/OneDrive/Documents/mooc%20certificates/Varun_Ch.pdf">Show Credential</a>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-logo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRycpEDJN14vgRuCldSJ3zYD9HOnEVK2sjq3A&s" alt="Udemy">
+                    </div>
+                    <div class="certification-info">
+                        <h3>Machine learning for SmartBeta</h3>
+                        <h6>Self paced</h6>
+                        <p>Coursera</p>
+                        <span class="date">March 2024</span>
+                        <a href="#" class="https://www.coursera.org/account/accomplishments/verify/G552KWH1JQOT">Show Credential</a>
+                    </div>
+                </div>
+                
+                <!-- Add more certification cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>chvarun971@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>7075354245</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Your City, Country</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/chimakurthivarunkumar01"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/varun7070/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/VarunCH93612013"><i class="fab fa-twitter"></i></a>
+                        
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+            <a href="#home" class="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="port.js"></script>
+    <!-- Hero Section - no changes needed as animations are targeted by class -->
+
+<!-- About Section -->
+<section id="about" class="section about">
+    <div class="container">
+        <h2 class="section-title" data-animate>About <span>Me</span></h2>
+        <div class="about-content">
+            <div class="about-text" data-animate data-animate-delay="100">
+                <!-- content remains the same -->
+            </div>
+            <div class="about-image" data-animate data-animate-delay="200">
+                <!-- content remains the same -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section skills">
+    <div class="container">
+        <h2 class="section-title" data-animate>Skills & <span>Technologies</span></h2>
+        <div class="skills-container">
+            <div class="skill-category" data-animate data-animate-delay="100">
+                <!-- content remains the same -->
+            </div>
+            <div class="skill-category" data-animate data-animate-delay="200">
+                <!-- content remains the same -->
+            </div>
+            <div class="skill-category" data-animate data-animate-delay="300">
+                <!-- content remains the same -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section projects">
+    <div class="container">
+        <h2 class="section-title" data-animate>My <span>Projects</span></h2>
+        <div class="projects-grid">
+            <div class="project-card" data-animate data-animate-delay="100">
+                <!-- content remains the same -->
+            </div>
+            <div class="project-card" data-animate data-animate-delay="200">
+                <!-- content remains the same -->
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
